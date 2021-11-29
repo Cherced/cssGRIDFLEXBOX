@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Line Up</title>
+  <style>
+    body {
+      height: auto;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    body .section {
+      background-color: coral;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    body .section div {
+      height: 100px;
+      width: 120px;
+      margin-block-end: 20px;
+    }
+
+    body .section p {
+      padding-inline: 5%;
+    }
+
+    body .section .color-1 {
+      background-color: violet;
+    }
+
+    body .section .color-2 {
+      background-color: dodgerblue;
+    }
+
+    body .section .color-3 {
+      background-color: chartreuse;
+    }
+  </style>
+</head>
+<body>
+  <section class="section">
+    <h2 class="title">Title - Card 1</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam facilis vel eveniet saepe adipisci sapiente cumque accusantium quisquam. Illum voluptate facere nam laudantium sit mollitia est sequi unde soluta distinctio.</p>
+    <div class="color-1"></div>
+  </section>
+  <section class="section">
+    <h2 class="title">Title - Card 2</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam facilis vel eveniet saepe adipisci sapiente cumque accusantium quisquam. Illum voluptate facere nam laudantium sit mollitia est sequi unde soluta distinctio.</p>
+    <div class="color-2"></div>
+  </section>
+  <section class="section">
+    <h2 class="title">Title - Card 3</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam facilis vel eveniet saepe adipisci sapiente cumque accusantium quisquam. Illum voluptate facere nam laudantium sit mollitia est sequi unde soluta distinctio.</p>
+    <div class="color-3"></div>
+  </section>
+</body>
+</html>

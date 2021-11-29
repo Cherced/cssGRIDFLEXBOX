@@ -10,7 +10,8 @@ html {
 }
 
 body {
-    margin: 100px 150px;
+    display: grid;
+    place-items: center;
 }
 
 .card{

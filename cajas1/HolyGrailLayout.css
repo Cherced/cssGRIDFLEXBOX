@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	height: 100vh;
+	font-size: 1.6rem;
+	display: grid;
+	grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+.header,
+.footer {
+	grid-column: 1/6;
+	padding: 2rem;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	background-color: blueviolet;
+	color: white;
+}
+
+.leftSidebar {
+	grid-column: 1/2;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 2rem;
+	background-color: brown;
+	color: white;
+}
+
+.main {
+	grid-column: 2/3;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 2rem;
+}
+
+.rightSidebar {
+	grid-column: 3/4;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 2rem;
+	background-color: brown;
+	color: white;
+}
